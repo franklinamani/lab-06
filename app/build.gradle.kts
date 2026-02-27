@@ -47,6 +47,10 @@ dependencies {
 
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    androidTestImplementation("androidx.test.espresso:espresso-intents:3.6.1")
+    androidTestImplementation("androidx.test:rules:1.6.1")
+
+    debugImplementation("androidx.test:core:1.6.1")
 }
 
 tasks.withType<Test> {
